@@ -26,7 +26,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Github, icon: github, url: "https://github.com/rodsalazar324-commits"}
-  - {title: Instagram, icon: Instagram, url: "https://www.instagram.com/rodolfobsalazar/"}
+  - {title: Instagram, icon: instagram, url: "https://www.instagram.com/rodolfobsalazar/"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
