@@ -18,14 +18,13 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-- {file: "home.html", title: "Home"}
-- {file: "archive.html", title: "Writings"}
-- {file: "code.html", title: "Code"}
+- {file: "home.html", title: "Home", sidebaricon: "home"}
+- {file: "archive.html", title: "Writings", sidebaricon: "pen"}
+- {file: "code.html", title: "Code", sidebaricon: "code"}
 - {file: "contact.html", title: "Contact", sidebaricon: "envelope"}
 
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:rodsalazar324@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/rodsalazar324-commits"}
   - {title: Instagram, icon: Instagram, url: "https://www.instagram.com/rodolfobsalazar/"}
 
