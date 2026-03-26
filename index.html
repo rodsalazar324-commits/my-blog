@@ -1,12 +1,17 @@
 ---
 layout: default
-title: Writings
+title: "Writings"
 ---
 
-<h1>Writings</h1>
-
-{% for post in site.posts %}
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <p>{{ post.excerpt }}</p>
-  <a href="{{ post.url | relative_url }}">Read more</a>
-{% endfor %}  
+{% if site.show_excerpts %}
+  {% for post in site.posts %}
+    <article>
+      {% include meta.html post=post %}
+      {{ post.excerpt }}
+      <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
+    </article>
+  {% endfor %}
+{% else %}
+  {% capture source %}{% include_relative archive.html title="Writings" %}{% endcapture %}
+  {{ source | split: "---" | last }}
+{% endif %}
