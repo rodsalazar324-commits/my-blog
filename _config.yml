@@ -10,15 +10,15 @@ date_format: "%B %d, %Y"
 
 show_excerpts: true             # show article excerpts instead of archive list on the home page
 show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: true             # remove all clutter
+show_sidebar: true             # show a sidebar instead of the usual header
+show_minimal: false             # remove all clutter
 
 #show_frame: "/assets/images/background.svg"
 
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-- {file: "home.html", title: "Home"}
+- {file: "home.html", title: "Home", sidebaricon: "home"}
 - {file: "archive.html", title: "Writings", sidebaricon: "address-card"}
 - {file: "code.html", title: "Code", sidebaricon: "code"}
 - {file: "contact.html", title: "Contact", sidebaricon: "envelope"}
