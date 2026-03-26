@@ -2,6 +2,7 @@
 title:  "Kape at tinapay"
 layout: post
 categories: media
+date: 2025-12-10
 ---
 
 
