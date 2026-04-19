@@ -6,8 +6,8 @@ date: 2025-12-10
 ---
 
 
-## May Panahon sa buhay ko na nahilig ako magbasa ng libro ni Rio Alma. Kaya naman gumawa ako tula para sa course namin na arts.
-### Kape at tinapay
+#### May Panahon sa buhay ko na nahilig ako magbasa ng libro ni Rio Alma. Kaya naman gumawa ako tula para sa course namin na arts.
+## Kape at tinapay
 Tinapay ang sagot 
 <br>sa t'yang nagtatampo 
 <br>isawsaw sa kape. 
