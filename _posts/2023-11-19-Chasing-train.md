@@ -1,5 +1,5 @@
 ---
-title:  "Chasing the trains"
+title:  "Chasing the train"
 layout: post
 categories: media
 

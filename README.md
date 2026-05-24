@@ -16,7 +16,6 @@ Just fork this [repository](https://github.com/niklasbuschmann/contrast) to `you
  - optional sidebar
  - archive page
  - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
 
 ## Installation
 
@@ -60,9 +59,7 @@ external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Github, icon: github, url: "https://github.com/"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
+
 
 plugins:
  - jekyll-feed

@@ -28,9 +28,6 @@ external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Github, icon: github, url: "https://github.com/rodsalazar324-commits"}
   - {title: Instagram, icon: instagram, url: "https://www.instagram.com/rodolfobsalazar/"}
 
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
 
 plugins:
  - jekyll-feed
