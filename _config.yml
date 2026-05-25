@@ -5,7 +5,7 @@ permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
-repository: rodsalazar324-commit/my-blog/
+repository: rodsalazar324-commits/my-blog/
 
 # Layout
 
