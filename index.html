@@ -4,14 +4,23 @@ title: "Writings"
 ---
 
 {% if site.show_excerpts %}
+
   {% for post in site.posts %}
-    <article>
-      {% include meta.html post=post %}
-      {{ post.excerpt }}
-      <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
-    </article>
+
+    {% include meta.html post=post %}
+
+    {{ post.excerpt }}
+
+    <a href="{{ post.url }}">read more</a>
+
   {% endfor %}
+
 {% else %}
-  {% capture source %}{% include_relative archive.html title="Writings" %}{% endcapture %}
+
+  {% capture source %}
+    {% include_relative archive.html title="Writings" %}
+  {% endcapture %}
+
   {{ source | split: "---" | last }}
+
 {% endif %}
