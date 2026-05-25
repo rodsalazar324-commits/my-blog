@@ -7,15 +7,21 @@ title: "Home"
 
   {% for post in site.posts %}
     {% include meta.html post=post %}
-
+    
     {{ post.excerpt }}
 
-    <a href="{{ post.url | relative_url }}">Read more</a>
+    <p>
+      <a href="{{ post.url | relative_url }}">Read more</a>
+    </p>
 
   {% endfor %}
 
 {% else %}
 
-  {% include_relative archive.html %}
+  {% capture source %}
+    {% include_relative archive.html title="Posts" %}
+  {% endcapture %}
+
+  {{ source | split: "---" | last }}
 
 {% endif %}
