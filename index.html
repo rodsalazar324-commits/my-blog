@@ -1,27 +1,25 @@
 ---
 layout: default
-title: "Home"
+title: Home
 ---
 
 {% if site.show_excerpts %}
 
   {% for post in site.posts %}
     {% include meta.html post=post %}
-    
-    {{ post.excerpt }}
 
-    <p>
-      <a href="{{ post.url | relative_url }}">Read more</a>
-    </p>
+    <div class="excerpt">
+      {{ post.excerpt }}
+    </div>
+
+    <a class="read-more" href="{{ post.url | relative_url }}">
+      Read more
+    </a>
 
   {% endfor %}
 
 {% else %}
 
-  {% capture source %}
-    {% include_relative archive.html title="Posts" %}
-  {% endcapture %}
-
-  {{ source | split: "---" | last }}
+  {% include_relative archive.html %}
 
 {% endif %}
