@@ -1,6 +1,6 @@
 ---
 title:  "Chasing the train"
-layout: post
+layout: "post"
 categories: media
 
 ---
