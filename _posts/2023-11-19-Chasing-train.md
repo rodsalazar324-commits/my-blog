@@ -2,7 +2,6 @@
 title:  "Chasing the train"
 layout: post
 categories: media
-
 ---
 
 
@@ -23,3 +22,5 @@ It has been almost two years since I dropped out of school. Do I regret it? No. 
 I love being in school, the classroom, the blackboard, the smell of chalk, and the idea of wearing uniforms. I like being in school as if there's a hope there.  The desire to graduate, to have a better life, or even to have a job that I enjoy. I don't know what job I want right now, but it should be related to math.
 
 I'm not sure what my future holds for me. Things don't always go as planned, and I'm not sure if I'll be working in civil engineering or math major in the future. I'm not certain. But I know I miss being in a classroom.
+
+
