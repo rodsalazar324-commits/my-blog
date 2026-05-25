@@ -1,26 +1,16 @@
 ---
 layout: default
-title: "Writings"
+title: Writings
 ---
 
-{% if site.show_excerpts %}
+# Writings
 
-  {% for post in site.posts %}
+{% for post in site.posts %}
 
-    {% include meta.html post=post %}
+## [{{ post.title }}]({{ post.url }})
 
-    {{ post.excerpt }}
+{{ post.excerpt }}
 
-    <a href="{{ post.url }}">read more</a>
+[Read more]({{ post.url }})
 
-  {% endfor %}
-
-{% else %}
-
-  {% capture source %}
-    {% include_relative archive.html title="Writings" %}
-  {% endcapture %}
-
-  {{ source | split: "---" | last }}
-
-{% endif %}
+{% endfor %}
