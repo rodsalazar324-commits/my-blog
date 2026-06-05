@@ -26,9 +26,9 @@ Cleaned a real-world layoffs dataset using MySQL.
 
 ### Sample Query
 
-```sql
+{% highlight sql linenos %}
 DELETE
 FROM layoffs_staging2
 WHERE row_num > 1;
-```
+{% endhighlight %}
 
