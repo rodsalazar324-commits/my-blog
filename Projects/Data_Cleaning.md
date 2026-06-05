@@ -3,6 +3,7 @@ layout: "post"
 title: "SQL Data Cleaning Project"
 permalink: /projects/layoffs-data-cleaning/
 ---
+<p> <a href="https://github.com/rodsalazar324-commits/datasql-data-cleaning-project" target="_blank"> View on GitHub </a> </p> 
 
 ## Overview
 
@@ -31,4 +32,3 @@ FROM layoffs_staging2
 WHERE row_num > 1;
 ```
 
-<p> <a href="https://github.com/rodsalazar324-commits/datasql-data-cleaning-project" target="_blank"> View on GitHub </a> </p> 
