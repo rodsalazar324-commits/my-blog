@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: page
 title: "SQL Data Cleaning Project"
 permalink: /projects/layoffs-data-cleaning/
 ---
