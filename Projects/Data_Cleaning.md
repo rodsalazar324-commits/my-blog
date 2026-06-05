@@ -4,10 +4,6 @@ title: "SQL Data Cleaning Project"
 permalink: /projects/layoffs-data-cleaning/
 ---
 
-<a href="https://github.com/rodsalazar324-commits/datasql-data-cleaning-project" target="_blank">
-  View on GitHub
-</a>
-
 ## Overview
 
 Cleaned a real-world layoffs dataset using MySQL.
@@ -33,3 +29,6 @@ Cleaned a real-world layoffs dataset using MySQL.
 DELETE
 FROM layoffs_staging2
 WHERE row_num > 1;
+```
+
+<p> <a href="https://github.com/rodsalazar324-commits/datasql-data-cleaning-project" target="_blank"> View on GitHub </a> </p> 
