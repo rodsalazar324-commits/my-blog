@@ -7,6 +7,9 @@ excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"  
 repository: rodsalazar324-commits/my-blog
 
+
+url: "https://rodsalazar324-commits.github.io"
+baseurl: "/my-blog"
 # Layout
 
 show_excerpts: true             # show article excerpts instead of archive list on the home page
